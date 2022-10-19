@@ -44,6 +44,14 @@ module.exports = {
     loaderOptions: {
       sass: {
         implementation: require('sass') // This line must in sass option
+      },
+      less: {
+        modifyVars: {
+          'nav-bar-background-color': '#b13a3d',
+          'nav-bar-title-text-color': '#fff',
+          'nav-bar-icon-color': '#fff',
+          'nav-bar-text-color': '#fff'
+        }
       }
     }
   },

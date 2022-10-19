@@ -1,9 +1,9 @@
-// import * as types from './mutation-types'
+import * as types from './mutation-types'
 
 const mutations = {
-  // [types.SET_BARRAGE_LIST] (state, barrageList) {
-  //   state.barrageList = barrageList
-  // }
+  [types.UPDATE_RECORD] (state, payload) {
+    state.record = payload
+  }
 }
 
 export default mutations

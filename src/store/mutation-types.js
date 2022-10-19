@@ -1,1 +1,1 @@
-// export const SET_BARRAGE_LIST = 'SET_BARRAGE_LIST'
+export const UPDATE_RECORD = 'UPDATE_RECORD'
